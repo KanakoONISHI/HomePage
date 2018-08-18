@@ -1,0 +1,92 @@
+body {
+    color: rgb(31, 21, 19);
+    /* font-family: "Meiryo"; */
+    font-family: "hiragino maru gothic proN", -apple-system, 'BlinkMacSystemFont', Helvetica Neue, Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN", Meiryo, Sans-Serif;
+}
+.page-heading {
+    padding: 160px 0 0 0;
+    color: white;
+    background-image: url(./img/banner.png);
+    background-color:rgb(31, 21, 19);
+    height: 400px;
+}
+
+.page-heading .title {
+    font-size: 30px;
+}
+
+.page-heading .subtitle {
+    padding-top: 10px;
+}
+
+.navbar-toggler-icon {
+    /* background-color: rgb(31, 21, 19); */
+    background-color: rgb(140, 140, 140);
+}
+
+/* アクティブでないページの nav 設定 */
+.navbar-dark,
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(140, 140, 140);
+}
+
+/* アクティブなページの nav 設定 */
+.navbar-dark .navbar-nav .active > .nav-link {
+    color: rgb(31, 21, 19);
+    border-bottom: 2px solid rgb(31, 21, 19);
+}
+
+/* アクティブでないページで hover したときの設定 */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(31, 21, 19);
+    border-bottom: 2px solid rgb(31, 21, 19);
+}
+
+/* brand nav の設定 */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:hover {
+    color: rgb(31, 21, 19);
+}
+
+img.icon {
+    height: 2em;
+}
+
+.menu {
+    font-size: 0.8em;
+}
+
+.card {
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.card-img-top {
+    max-height: 10em;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.card-text {
+    margin-top: 1em;
+}
+
+.card-title {
+    border-left-style: solid;
+    border-width: 0.2em;
+    padding-left: 0.5em;
+    border-left-color: rgb(140,140,140);
+}
+
+.schedule {
+    width: 100%;
+    max-width: 30em;
+}
+
+.schedule td, .schedule th {
+    padding: 0.3em;
+}
+
+.container {
+    margin-top: 1em;
+}
